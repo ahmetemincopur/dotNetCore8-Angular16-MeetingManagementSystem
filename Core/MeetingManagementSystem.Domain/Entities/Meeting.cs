@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MeetingManagementSystem.Domain.Entities
 {
-    public class Meetings : BaseEntity
+    public class Meeting : BaseEntity
     {
         public required string Name { get; set; }
         public required DateTime StartDate { get; set; }

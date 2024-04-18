@@ -9,6 +9,6 @@ namespace MeetingManagementSystem.Application.Abstractions
 {
     public interface IMeetingService
     {
-        List<Meetings> GetMeetings();
+        List<Meeting> GetMeetings();
     }
 }

@@ -9,6 +9,6 @@ namespace MeetingManagementSystem.Application.Abstractions
 {
     public interface IUserService
     {
-        List<Users> GetUsers();
+        List<User> GetUsers();
     }
 }

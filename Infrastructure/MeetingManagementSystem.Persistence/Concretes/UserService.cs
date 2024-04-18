@@ -10,7 +10,7 @@ namespace MeetingManagementSystem.Persistence.Concretes
 {
     public class UserService : IUserService
     {
-        public List<Users> GetUsers()
+        public List<User> GetUsers()
         => new()
         {
             new(){Id=Guid.NewGuid(), Firstname="Ahmet", Lastname="Çöpür", Email="ahmetemincopur@outlook.com", Password="ahmet123", PhoneNumber="5389465401"},

@@ -10,7 +10,7 @@ namespace MeetingManagementSystem.Persistence.Concretes
 {
     public class MeetingService : IMeetingService
     {
-        public List<Meetings> GetMeetings()
+        public List<Meeting> GetMeetings()
         {
             throw new NotImplementedException();
         }
